@@ -17,7 +17,7 @@ const RideSelector = ({pickupCoordinates,dropoffCoordinates}) => {
   return (
     <Wrapper>
       <Title>
-        Choose a ride or swipe up for more
+        Choose a ride or swipe up for more.
       </Title>
       <Carlist> 
         {carList.map((car,index)=>(
