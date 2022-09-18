@@ -27,4 +27,4 @@ export const carList = [
       multiplier: 2.8,
     }
   ]
-  export default carList
+  

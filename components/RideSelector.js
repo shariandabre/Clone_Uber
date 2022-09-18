@@ -1,7 +1,7 @@
 import { data } from 'autoprefixer';
 import {useEffect,useState} from 'react'
 import tw from 'tailwind-styled-components'
-import { carList } from '../pages/data/carList'
+import { carList } from '../data/carList'
 const RideSelector = ({pickupCoordinates,dropoffCoordinates}) => {
   const [rideDuration,setrideDuration]=useState(0);
   useEffect(()=>{
