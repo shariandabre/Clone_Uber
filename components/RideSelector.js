@@ -6,9 +6,9 @@ const RideSelector = ({pickupCoordinates,dropoffCoordinates}) => {
   const [rideDuration,setrideDuration]=useState(0);
   useEffect(()=>{
     
-    rideDuration=fetch(`https://api.mapbox.com/directions/v5/mapbox/driving/${pickupCoordinates[0]},${pickupCoordinates[1]};${dropoffCoordinates[0]},${dropoffCoordinates[1]}?geometries=geojson&access_token=pk.eyJ1Ijoic2hhcmlhbiIsImEiOiJjbDg0aGQxNG8wZnhnM25sa3VlYzk1NzVtIn0.BxFbcyCbxdoSXAmSgcS5og`).then(res=>res.json())
+      const newrideDuration=fetch(`https://api.mapbox.com/directions/v5/mapbox/driving/${pickupCoordinates[0]},${pickupCoordinates[1]};${dropoffCoordinates[0]},${dropoffCoordinates[1]}?geometries=geojson&access_token=pk.eyJ1Ijoic2hhcmlhbiIsImEiOiJjbDg0aGQxNG8wZnhnM25sa3VlYzk1NzVtIn0.BxFbcyCbxdoSXAmSgcS5og`).then(res=>res.json())
     .then(data=>{
-     
+     setrideDuration(newrideDuration);
       setrideDuration(data.routes[0].duration / 10)
     
   })
@@ -20,7 +20,7 @@ const RideSelector = ({pickupCoordinates,dropoffCoordinates}) => {
         Choose a ride or swipe up for more
       </Title>
       <Carlist> 
-        {carList.map((car)=>(
+        {carList.map((car,index)=>(
             <Car key={index}>
              <Carimg src={car.imgUrl} />
             <CarDetails> 

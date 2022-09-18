@@ -11,7 +11,7 @@ const Login = () => {
                 router.push('/')
             }
         })
-    },[])
+    })
   return (
     <Wrapper>
         <UberLogo>
