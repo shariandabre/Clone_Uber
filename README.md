@@ -4,6 +4,9 @@ This is a Uber clone made by using :-
 - MapBox .
 - Firebase .
 
+
+
+
 >Screen 1
 
 - Login page
@@ -14,6 +17,8 @@ This is a Uber clone made by using :-
 - Firebase is used for Sign in process
 
 
+
+
 >Screen 2
 
 ![image](https://user-images.githubusercontent.com/94830605/193873366-1c545934-03f6-4c8d-bffc-7212ec9e6e78.png)
@@ -22,12 +27,17 @@ This is a Uber clone made by using :-
 - After Sign in Firebase will update your name and profile pic.
 
 
+
+
 >Screen 3
 
 ![image](https://user-images.githubusercontent.com/94830605/193874893-48516e83-4fe2-424c-aac0-502388b84b64.png)
 
 
 - Now enter your loction and click on Confirm Location
+
+
+
 
 >Screen 4
 
