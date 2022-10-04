@@ -2,7 +2,7 @@ This is a Uber clone made by using :-
 - Next.js .
 - Tailwind Css .
 - MapBox .
-- Firebase .<br />
+- Firebase .
 
 
 
@@ -34,7 +34,7 @@ This is a Uber clone made by using :-
 ![image](https://user-images.githubusercontent.com/94830605/193874893-48516e83-4fe2-424c-aac0-502388b84b64.png)
 
 
-- Now enter your loction and click on Confirm Location <br />
+- Now enter your loction and click on Confirm Location 
 
 
 
